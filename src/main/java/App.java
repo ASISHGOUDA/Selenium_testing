@@ -63,13 +63,28 @@ public class App {
 
      // Sending Text to a webElement
 
-     WebElement searchbox = driver.findElement(By.id("searchInput"));
-     String searchstr = "Selenium Webdriver";
-     searchbox.sendKeys(searchstr);
+//     WebElement searchbox = driver.findElement(By.id("searchInput"));
+//     String searchstr = "Selenium Webdriver";
+//     searchbox.sendKeys(searchstr);
+//
+//
+//     WebElement searchbutton = driver.findElement(By.cssSelector("#search-form > fieldset > button"));
+//     searchbutton.click();
 
 
-     WebElement searchbutton = driver.findElement(By.cssSelector("#search-form > fieldset > button"));
-     searchbutton.click();
+     //System.out.println(driver.findElement(By.xpath("/html/body/table/tbody[1]/tr[2]/td[1]")).getText());
+     //System.out.println(driver.findElement(By.xpath("/html/body/table/tbody[1]/tr[1]/th[2]")).getText());
+
+//     List<WebElement> listOfWebElements = driver.findElements(By.xpath("/html/body/table/tbody[1]/tr"));
+//
+//     for(WebElement element : listOfWebElements){
+//         System.out.println(element.getText());
+//     }
+
+
+
+
+
 //     driver.close();
     }
 
